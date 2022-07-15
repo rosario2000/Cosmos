@@ -1,0 +1,31 @@
+.i .load{
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.i-cont{
+    width: 90%;
+    margin: 50px auto;
+    font-family: 'Montserrat';
+}
+
+.i-cont h1{
+    font-size: 3.5rem;
+}
+.i-cont p{
+    font-size: 12px;
+    line-height: 2.5;
+}
+
+.i .row{
+  margin: 80px auto;
+}
+
+@media screen and (max-width:765px) {
+    .i-cont{
+        text-align: center;
+    }
+}

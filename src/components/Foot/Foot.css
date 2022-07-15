@@ -1,0 +1,81 @@
+.f{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)), url("../img/klemen-vrankar-lcT_p8kLCsc-unsplash.jpg") 
+                center fixed no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+a{
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 50%;
+    height: fit-content;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+a:hover{
+    
+    background-color: white;
+    color: rgb(0, 3, 69);
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.f-desc{
+    padding: 20px 10px;
+    margin-left: 20px;
+    font-size: 1.25rem;
+}
+
+
+.f-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.f-icons svg{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    border-bottom:5px solid white;
+    margin: 20px auto;
+}
+
+.cr{
+    font-size: 15px;
+    padding: 10px;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+      .f-desc{
+        text-align: center;
+        margin: 0 auto;
+      }
+      .cr{
+           font-size: 10px;
+            padding: 8px;
+      }
+}
+
+@media screen and (max-width: 350px) {
+    .cr{
+         font-size: 5px;
+          padding: 3px;
+    }
+}

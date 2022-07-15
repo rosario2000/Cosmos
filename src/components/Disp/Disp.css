@@ -1,0 +1,41 @@
+.c{
+    margin: 40px auto;
+}
+
+.c h1{
+    font-size: 50px;
+    margin: 40px;
+}
+
+
+.c-card {
+    text-align: center;
+    padding: 60px;
+    width: 250px;
+}
+
+.c-card a{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.c-card a:hover{
+    background-color: #000014;
+}
+
+
+
+.c-card i{
+    color: #7676e4;
+}
+.c-card h4{
+    margin-top: 20px;
+}
+@media screen and (max-width:765px) {
+    .c h1{
+        margin: 40px auto;
+        
+    }
+}

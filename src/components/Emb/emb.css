@@ -1,0 +1,9 @@
+.e{
+    width: fit-content;
+    margin: 20px auto;
+}
+.e iframe{
+    width: 90vw;
+    height: 70vh;
+    margin: 10px auto;
+}

@@ -1,0 +1,39 @@
+.s .info{
+   display: none;
+}
+
+
+.s .use{
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+.use .row{
+    margin: 30px 0;
+}
+
+
+.s .mob{
+    display: none;
+}
+
+
+@media screen and (max-width: 770px) {
+    .s .use{
+        display: none;
+    }
+    
+    .s .mob{
+        margin: 70px 0;
+        text-align: center;
+        display:block;
+        font-size: 20px;
+    }
+    .s .info{
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin: 5px auto;
+    }
+    
+}

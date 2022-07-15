@@ -1,0 +1,94 @@
+
+.n{
+   background-color: rgb(0, 0, 20);
+   top: 0;
+   position: fixed;
+   z-index: 999;
+}
+.n .btn{
+   color: white;
+   margin: 50px 30px;
+   border: 2px solid;
+}
+.n svg{
+   width: 20px;
+   height: 20px;
+}
+.n .btn:hover{
+   color: black;
+   border: 2px solid;
+   background-color: white;
+
+}
+
+.n-log{
+   float: right;
+}
+
+.offcanvas{
+   background-color: rgb(20, 20, 20);
+}
+
+.offcanvas button{
+   background-color: white;
+   padding: 10px;
+}
+
+.offcanvas-header{
+   height: 40px;
+   color: white;
+   margin: 5px 10px;
+}
+
+
+
+.offcanvas a:hover{
+   color: white;
+   background-color:rgb(20, 20, 20);
+}
+
+.offcanvas-body{
+   background: url("../img/ocn.svg") no-repeat scroll;
+   background-size: cover;
+   background-position-x: 300px;
+   background-position-y: -40px;
+}
+
+.offcanvas-body h6{
+   padding: 10px;
+   margin-left: 1vw;
+}
+
+
+.offcanvas-body a{
+   padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+   .n button{
+       margin: 30px 10px;
+       
+    }
+    .offcanvas-body{
+      background-position-x: 200px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .n button{
+       margin: 20px 8px;
+       
+    }
+    .offcanvas-body{
+      background-position-x: 130px;
+      background-position-y: 0px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   
+    .offcanvas-body{
+      background-position-x: 140px;
+      background-position-y: 20px;
+   }
+}

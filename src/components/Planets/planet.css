@@ -1,0 +1,11 @@
+.myp{
+    height: fit-content;
+}
+
+.myp .load{
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
